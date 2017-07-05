@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { AppRoutes } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]
