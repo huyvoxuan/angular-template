@@ -1,28 +1,39 @@
-# Antin
+## Template
+  - Default HTML5/CSS3/JavaScript template
+  - Use Angular CLI, Angular 4., jQuery
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+## IDE Configuration
+- Open Sublime Text
+- Choose Preferences -> Settings - Default
+- The number of spaces a tab is considered equal to "tab_size": 2
+- Set to true to insert spaces when tab is pressed "translate_tabs_to_spaces": true
+- Set to true to removing trailing white space on save "trim_trailing_white_space_on_save": true
+- Set to true to ensure the last line of the file ends in a newline character when saving "ensure_newline_at_eof_on_save": true
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Installation
+### Install NodeJS
+  - Download [NodeJS](http://nodejs.org)
+### Install Dependencies
+  - Open Command Line and run
+    * npm install
+### Internationalization
+  - Use [Ngx-translate](https://github.com/ngx-translate/core)
+  - Install gnx-translate by following command
+    * npm install @ngx-translate/core @ngx-translate/http-loader --save
+### Angular CLI
+  - Tutorial [Angular-cli](https://github.com/angular/angular-cli)
+    * npm install -g @angular/cli
+## Development
+- Create an app
+  * ng new myApp
+- Run app with localhost
+  * ng serve
+- Build app
+  * ng build
+- Create Component/ Directive/ Pipe/ Service/ Class/ Guard/ Interface/ Enum/ Module
+  * ng g component my-new-component
+## Release
+- ng build --prod
+## Test
+- ng test [unit test]
+- ng e2e [end-to-end tests]
