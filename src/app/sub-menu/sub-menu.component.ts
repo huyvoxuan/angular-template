@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class SubMenuComponent implements OnInit {
 
   constructor() { }
-
+  isShow: boolean = true;
   ngOnInit() {
   }
 

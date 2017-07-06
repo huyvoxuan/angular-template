@@ -4,9 +4,14 @@ import {HomeComponent} from './home/home.component';
 
 const routing: Routes = [
   { path: '', component: HomeComponent} ,
-  { path: 'introduction', component: HomeComponent} //,
-  //path: 'employees', component: EmployeeComponent},
-  //path: 'employee-detail/:id', component: EmployeeDetailComponent}
+  { path: 'services', component: HomeComponent},
+  { path: 'events', component: HomeComponent},
+  { path: 'tips', component: HomeComponent},
+  { path: 'news', component: HomeComponent},
+  { path: 'recruitment', component: HomeComponent},
+  { path: 'contact', component: HomeComponent},
+  { path: 'contact', component: HomeComponent},
+  { path: 'contact', component: HomeComponent}
 ]
 
 export const AppRoutes = RouterModule.forRoot(routing);
